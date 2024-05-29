@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Expense Tracker</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="form-container">
+    <h1>Project Form 4</h1>
+    <form>
+      <div class="form-group">
+        <label for="expense">Expense:</label>
+        <input type="text" id="expense" name="expense" placeholder="Enter expense" required>
+      </div>
+      <div class="form-group">
+        <label for="id">ID:</label>
+        <input type="text" id="id" name="id" placeholder="Enter ID" required>
+      </div>
+      <div class="form-group">
+        <label for="site">Site:</label>
+        <input type="text" id="site" name="sitet" placeholder="site" required>
+      </div>
+      <div class="form-group">
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" required>
+      </div>
+      <div class="form-group">
+        <label for="type">Type:</label>
+        <select id="type" name="type" required>
+          <option value="" disabled selected>Select Type</option>
+          <option value="earthwork">Earth work</option>
+          <option value="shuttering-barbending">Shuttering and Barbending</option>
+          <option value="stone-masonry">Stone Masonry</option>
+          <option value="electrical">Electrical</option>
+          <option value="plumbing">Plumbing</option>
+          <option value="plastering">Plastering</option>
+          <option value="painting">Painting</option>
+          <option value="doors-windows">Doors and Windows</option>
+          <option value="flooring">Flooring</option>
+          <option value="interior">Interior</option>
+          <option value="other">Other Works</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="payment">Payment:</label>
+        <input type="text" id="payment" name="payment" placeholder="Enter payment" required>
+      </div>
+      
+      <div class="form-group">
+        <label for="sqft">Sqft:</label>
+        <input type="number" id="sqft" name="sqft" placeholder="Enter square feet" required>
+      </div>
+      <div class="form-group1">
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
